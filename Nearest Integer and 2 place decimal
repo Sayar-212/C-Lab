@@ -6,8 +6,8 @@ decimal places */
 int main()
 {
 	float a=34.5678;
-	printf("Nearest Integer %.f ",a);
-	printf("Rounded to 2 place %.2f",a);
+	printf("Nearest Integer %.f \n",a);
+	printf("Rounded to 2 place %.2f \n",a);
 	return 0;
 }
 
