@@ -1,0 +1,13 @@
+//Write a program to calculate the average of two numbers. 
+
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	printf("Enter two Numbers \n"); //taking an user input. If you want u can take static inputs as well.
+	scanf("%d%d",&a,&b);
+	printf("Average of Two Numbers %d and %d is %f \n",a,b,(float)(a+b)/2.0);//explicit casting
+	return 0;
+}
+
+	
