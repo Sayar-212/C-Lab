@@ -1,0 +1,18 @@
+/*The method of computing the yearly depreciation of the value of an item is given by the
+following equation:
+𝐷𝑒𝑝𝑟𝑒𝑐𝑖𝑎𝑡𝑖𝑜𝑛 =(𝑃𝑢𝑟𝑐ℎ𝑎𝑠𝑒 𝑃𝑟𝑖𝑐𝑒 − 𝑆𝑎𝑙𝑣𝑎𝑔𝑒 𝑉𝑎𝑙𝑢𝑒)/𝑌𝑒𝑎𝑟𝑠 𝑜𝑓 𝑆𝑒𝑟𝑣𝑖𝑐𝑒
+Write a program to determine the salvage value of an item when the purchase price, years
+of service and the annual depreciation are given by the user. */
+
+#include <stdio.h>
+int main()
+{
+	float purchase,yos,salv,dep;
+	printf("Enter Purchase Price, Annual depreciation amount, and Years of service \n");
+	scanf("%f%f%f",&purchase,&dep,&yos);
+	salv=purchase - (dep*yos);
+	printf("Salvage value is %f",salv);
+	return 0;
+}
+
+	
