@@ -1,0 +1,13 @@
+/*Write a program to assign the number 34.5678 to a variable named number. First display
+number rounded to the nearest integer value and then display number rounded to two
+decimal places */
+
+#include <stdio.h>
+int main()
+{
+	float a=34.5678;
+	printf("Nearest Integer %.f ",a);
+	printf("Rounded to 2 place %.2f",a);
+	return 0;
+}
+
